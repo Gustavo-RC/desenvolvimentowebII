@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const db = mongoose.connect("mongodb+srv://devwebII:devwebII@ciclospagamento.xxrff.gcp.mongodb.net/CiclosPagamentoDb?retryWrites=true&w=majority", {
+const db = mongoose.connect("mongodb+srv://devwebII:devwebII@gus12345.czwg8.gcp.mongodb.net/CicloPagamentosDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
