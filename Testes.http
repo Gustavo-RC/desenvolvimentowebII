@@ -2,6 +2,9 @@
 GET http://localhost:1234/
 
 ###
+GET http://localhost:1234/5f484b238ec5830808376f0f
+
+###
 POST http://localhost:1234/
 content-type: application/json
 
@@ -13,7 +16,7 @@ content-type: application/json
     }],
     "debits":[{
         "name": "Luz",
-        "value": 200,
+        "value": 100,
         "status": "PAGO"
     }]
 }
